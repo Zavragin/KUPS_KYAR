@@ -1,0 +1,67 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="icon" href="image/якорь.svg">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+          
+ 
+    <header class="header">
+      <a id="bel" href="ponton.html">
+        <div class="zagolovok" >
+          <p><img id="logo" src="image/якорь.svg" alt="Логотип"></p>
+          <p id="id1">BELPRICHAL.BY</p>
+        </div>
+      </a>
+      <div class="burger" onclick="toggleMenu()"> ☰ </div>
+        <div class="menu"  id="navMenu">
+          <p><a href="ponton.html">ГЛАВНАЯ</a></p>
+          <p><a href="catalog.html">КАТАЛОГ</a></p>
+          <p><a href="galereia.html">ГАЛЕРЕЯ</a></p>
+          <p><a href="contact.html">КОНТАКТЫ</a></p>
+        </div> 
+   
+      </header>
+
+      <form class="contact-form" enctype="multipart/form-data">
+        <p>
+          <label class="label">Имя</label>
+          <input type="text" placeholder="Введите имя">
+        </p>
+      
+        <p>
+          <label class="label">Моб. телефон</label>
+          <input type="tel" placeholder="+375 (**) *** ** **">
+        </p>
+      
+        <p>
+          <label class="label">Сообщение</label>
+          <textarea placeholder="Введите ваше сообщение"></textarea>
+        </p>
+      
+        <p>
+          <label class="label">Загрузите фото cвоего эскиза (необязательно)</label>
+          <input type="file" accept="image/*">
+        </p>
+      
+        <button type="submit">Отправить</button>
+      </form>
+      
+    <footer>
+        <div>
+           <h1>BELPRICHAL.BY</h1>
+           <p>BELPRICHAL.BY — гармония стиля и качества!</p>
+           <p>© 2025 BELPRICHAL.BY. Все права защищены.</p>
+        </div>
+        <div>
+           <p>+37529*******</p>
+           <p>*********@mail.ru</p>
+        </div>
+       </footer>
+       <script src="burger.js"></script>
+    </body>
+    </html>
